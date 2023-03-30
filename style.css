@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.attribution { font-size: 11px; text-align: center; }
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    background: hsl(193, 100%, 96%) url("/images/bg-hero-desktop.svg");
+    background-size: cover;
+    padding: 2.5rem 1rem;
+}
+
+.container .logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo img{
+    width: 180px;
+}
+
+.logo button{
+    padding: 0.8rem 3.8rem;
+    border: none;
+    border-radius: 2rem;
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 1rem;
+    background-color: white;
+    box-shadow: 0 3px 7px 1px #dddddd;
+    cursor: pointer;
+}
+
+.container .midContainer{
+    display: flex;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.midContainer .midContainerT{
+    width: 41%;
+    margin-left: 2rem;
+    font-family: Poppins;
+}
+
+.midContainer .midContainerT h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.midContainer .midContainerT p{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.midContainer .midContainerT button{
+    margin-top: 1rem;
+    padding: 1rem 3.8rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    font-family: Poppins;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.midContainer img{
+    width: 700px;
+    margin-left: 2rem;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 0 4rem 0;
+}
+
+section .card{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px 1px #f0f0f0;
+    font-family: Poppins;
+    padding: 3.5rem 0;
+    margin-top: 3rem;
+}
+
+.card .cardT{
+    margin: 0 14.8rem 0 6rem;
+}
+
+.card .cardT h2{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.card .cardT p{
+    color: rgb(148, 148, 148);
+}
+
+section .card img{
+    width: 400px;
+}
+
+.floatcard{
+    text-align: center;
+    position: relative;
+    width: 55%;
+    top: 7rem;
+    left: 25%;
+    padding: 2rem 0 3rem;
+    font-family: Poppins;
+    border-radius: 1rem;
+    box-shadow: 0 -5px 10px -3px rgb(243, 243, 243);
+    background-color: white;
+}
+
+.floatcard button{
+    padding: 1.3rem 8rem;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    border-radius: 2rem;
+}
+
+.footer{
+    font-family: Poppins;
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+}
+
+.footerContent{
+    display: flex;
+    align-items: center;
+    padding: 10rem 5rem;
+}
+
+.footerContent .about div{
+    display: flex;
+    align-items:self-start;
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+}
+
+.about div img{
+    color: white;
+    margin-right: 1rem;
+}
+
+.footerContent .links{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8rem;
+}
+
+.links a{
+    color: inherit;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+
+.footerContent .social{
+    margin-left: 8rem;
+}
+
+.social i{
+    padding: .5rem;
+    border: 1px solid white;
+    border-radius: 1rem;
+    margin-left: .5rem;
+}
+
+.footer .copyright{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.8rem;
+    margin-right: 4rem;
+    padding-bottom: 3rem;
+}
+
