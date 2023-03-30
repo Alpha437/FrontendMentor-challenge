@@ -85,28 +85,28 @@ section{
     padding: 5rem 0 4rem 0;
 }
 
-section .card{
+section .card, .card1{
     display: flex;
     align-items: center;
     width: 90%;
     border-radius: 1rem;
     box-shadow: 0 0 10px 1px #f0f0f0;
     font-family: Poppins;
-    padding: 3.5rem 0;
+    padding: 5rem 0;
     margin-top: 3rem;
 }
 
-.card .cardT{
-    margin: 0 14.8rem 0 6rem;
+.card .cardT, #flip{
+    margin: 0 13rem 0 6rem;
 }
 
-.card .cardT h2{
-    font-size: 2rem;
+.card h2{
+    font-size: 1.5rem;
     font-weight: 800;
     margin-bottom: 1rem;
 }
 
-.card .cardT p{
+.card p{
     color: rgb(148, 148, 148);
 }
 
