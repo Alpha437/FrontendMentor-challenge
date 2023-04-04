@@ -20,7 +20,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width:95%;
+    /* max-width:95%; */
     margin-left: 2rem;
 }
 
