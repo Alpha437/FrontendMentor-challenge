@@ -76,6 +76,11 @@ body{
     font-weight: 600;
 }
 
+.midContainer .midContainerT button:hover {
+    cursor: pointer;
+    background-color: hsl(322, 100%, 74%);
+}
+
 .midContainer img{
     width: 45%;
 }
@@ -136,6 +141,11 @@ section .card img, .card1 img{
     background-color: hsl(322, 100%, 66%);
     border: none;
     border-radius: 2rem;
+}
+
+.floatcard button:hover {
+    cursor: pointer;
+    background-color: hsl(322, 100%, 74%);
 }
 
 .footer{
