@@ -84,7 +84,7 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5rem 0 4rem 0;
+    padding: 5rem 1rem 4rem;
 }
 
 section .card, .card1{
@@ -202,7 +202,7 @@ section .card img, .card1 img{
     }
 
     .midContainer .midContainerT p{
-        inline-size: 400px;
+        inline-size: 450px;
     }
 
 }
@@ -210,6 +210,7 @@ section .card img, .card1 img{
 @media only screen and (max-width: 860px){
     .container .logo{
         width: 100%;
+        margin: 0;
     }
 
     .logo img{
@@ -217,7 +218,7 @@ section .card img, .card1 img{
     }
 
     .logo button{
-        padding: 0.8rem 2rem;
+        padding: 0.2rem 1.5rem;
         border: none;
     }
 
@@ -231,6 +232,7 @@ section .card img, .card1 img{
     .midContainer .midContainerT{
         width: 100%;
         display: flex;
+        margin: 0;
         flex-direction: column;
         justify-content: center;
     }
@@ -243,14 +245,17 @@ section .card img, .card1 img{
     }
 
     .midContainer .midContainerT p{
-        inline-size: 80%;
+        inline-size: auto;
         text-align: center;
         margin: 0 auto;
+        width: 80%;
     } 
     
     .midContainer .midContainerT button{
         width: 60%;
-        margin: 1rem auto 4rem;
+        align-self: center;
+        margin: 1rem 0 4rem;
+
     }
 
     .midContainer img{
@@ -291,4 +296,22 @@ section .card img, .card1 img{
         text-align: center;
     }
 
+}
+
+@media only screen and (max-width: 450px){
+    .midContainer .midContainerT button{
+        align-self: center;
+        margin: 1rem 0 4rem;
+        padding: 1rem 1rem;
+        width: 80%;
+    }
+
+    .logo button{
+        margin-left: 0.5rem;
+        padding: 0.2rem 1rem;
+    }
+
+    section .card .card1 {
+        width: 60%;
+    }
 }
