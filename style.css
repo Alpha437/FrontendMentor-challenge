@@ -106,7 +106,7 @@ section .card, .card1{
 }
 
 .card p, .card1 p{
-    color: rgb(148, 148, 148);
+    color: rgb(98, 98, 98);
     inline-size: 500px;
 }
 
@@ -117,9 +117,9 @@ section .card img, .card1 img{
 .floatcard{
     text-align: center;
     position: relative;
-    width: 55%;
+    width: 550px;
     top: 7rem;
-    left: 25%;
+    margin: 0 auto;
     padding: 2rem 0 3rem;
     font-family: Poppins;
     border-radius: 1rem;
@@ -295,9 +295,21 @@ section .card img, .card1 img{
         text-align: center;
     }
 
+    .floatcard{
+        width: 90%;
+    }
+    
+    .floatcard button {
+        padding: 1rem 5rem;
+    }
+
+    .floatcard h1 {
+        font-size: 1.5rem;
+    }
+
 }
 
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 470px){
     .midContainer .midContainerT button{
         align-self: center;
         margin: 1rem 0 4rem;
@@ -312,6 +324,10 @@ section .card img, .card1 img{
 
     section .card .card1 {
         width: 60%;
+    }
+
+    .floatcard h1 {
+        font-size: 1.2rem;
     }
 }
 
