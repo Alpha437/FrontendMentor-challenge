@@ -255,7 +255,6 @@ section .card img, .card1 img{
         width: 60%;
         align-self: center;
         margin: 1rem 0 4rem;
-
     }
 
     .midContainer img{
@@ -313,5 +312,13 @@ section .card img, .card1 img{
 
     section .card .card1 {
         width: 60%;
+    }
+}
+
+@media only screen and (max-width: 285px) {
+    .container {
+        padding-left: 0.5rem;
+        padding-right: 0.2rem;
+
     }
 }
