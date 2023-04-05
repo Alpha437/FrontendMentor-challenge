@@ -189,6 +189,10 @@ section .card img, .card1 img{
     margin-top: 1rem;
 }
 
+.links a:hover {
+    text-decoration: underline;
+}
+
 .footerContent .about, .links, .social{
     flex: 1 0 auto;
 }
@@ -198,6 +202,12 @@ section .card img, .card1 img{
     border: 1px solid white;
     border-radius: 1rem;
     margin-left: .5rem;
+}
+
+.social i:active, i:hover {
+    color: hsl(322, 100%, 66%);
+    border: 1px solid hsl(322, 100%, 66%);
+    cursor: pointer;
 }
 
 .footer .copyright{
