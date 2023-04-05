@@ -158,24 +158,29 @@ section .card img, .card1 img{
     display: flex;
     align-items: center;
     padding: 10rem 5rem;
+    gap: 5rem;
+    flex-wrap: wrap;
 }
 
 .footerContent .about div{
     display: flex;
-    align-items:self-start;
+    align-items: flex-start;
     margin-top: 1.5rem;
     font-size: 0.9rem;
 }
 
+.footerContent .about div .lorem{
+    inline-size: 400px;
+    margin: 0;
+}
+
 .about div img{
-    color: white;
     margin-right: 1rem;
 }
 
 .footerContent .links{
     display: flex;
     flex-direction: column;
-    margin-left: 8rem;
 }
 
 .links a{
@@ -184,8 +189,8 @@ section .card img, .card1 img{
     margin-top: 1rem;
 }
 
-.footerContent .social{
-    margin-left: 8rem;
+.footerContent .about, .links, .social{
+    flex: 1 0 auto;
 }
 
 .social i{
@@ -201,6 +206,7 @@ section .card img, .card1 img{
     font-size: 0.8rem;
     margin-right: 4rem;
     padding-bottom: 3rem;
+    width: 100%;
 }
 
 @media only screen and (max-width: 1024px){
@@ -316,6 +322,18 @@ section .card img, .card1 img{
     .floatcard h1 {
         font-size: 1.5rem;
     }
+    
+    .footerContent {
+        padding-bottom: 2rem;
+    }
+
+    .footerContent .about div .lorem{
+        inline-size: 300px;
+    }
+
+    .footer .copyright{
+        justify-content: center;
+    }
 
 }
 
@@ -338,6 +356,26 @@ section .card img, .card1 img{
 
     .floatcard h1 {
         font-size: 1.2rem;
+    }
+
+    .footerContent {
+        padding-left: 3rem;
+        padding-right: 3rem;
+        gap: 2rem;
+    }
+
+    .footerContent .about div .lorem{
+        inline-size: 200px;
+    }
+
+    .footerContent .social {
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+
+    .about .logo {
+        width: 70%;
     }
 }
 
